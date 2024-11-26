@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakult Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Yakult Store</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#new-products">New Products</a></li>
+                <li><a href="#articles">Health Tips</a></li>
+                <li><a href="#promotions">Promotions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Yakult Store</h1>
+            <p style="max-width: 800px; margin: 1rem auto;">
+                Yakult Honsha, a pioneer in probiotic foods, is a large Japanese company.
+                Yakult operates in 40 countries worldwide and its products are trusted by customers for their health benefits.
+
+
+            </p>
+        </section>
+
+        <div class="products-container">
+            <section id="products">
+                <h2>Our Products</h2>
+                <div class="product-grid" id="product-grid"></div>
+            </section>
+
+            <section id="new-products">
+                <h2>New Products</h2>
+                <div class="product-grid" id="new-product-grid"></div>
+            </section>
+        </div>
+
+        <section id="articles" class="articles-section">
+            <h2>Health & Wellness Articles</h2>
+            <div class="articles-grid" id="articles-grid"></div>
+        </section>
+
+        <section id="promotions" class="promotions-section">
+            <h2>Special Offers</h2>
+            <div class="promotions-grid" id="promotions-grid"></div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-phone"></i> 028 6281 4235</p>
+                    <p><i class="fas fa-envelope"></i> info@yakult.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> No. 5 - Freedom Boulevard - Vietnam Singapore Industrial Park, Thuan An City - Binh Duong Province</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2016 Yakult. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
